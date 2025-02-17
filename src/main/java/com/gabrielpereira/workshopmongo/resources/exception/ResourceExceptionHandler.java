@@ -1,11 +1,10 @@
-package com.gabrielpereira.workshopmongo.resources;
+package com.gabrielpereira.workshopmongo.resources.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.gabrielpereira.workshopmongo.resources.exception.StandardError;
 import com.gabrielpereira.workshopmongo.services.exception.ObjectNotFoundException;
 
 import jakarta.servlet.http.HttpServletRequest;
