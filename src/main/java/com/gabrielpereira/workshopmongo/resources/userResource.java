@@ -15,7 +15,8 @@ import com.gabrielpereira.workshopmongo.domain.User;
 @RequestMapping(value="/users")
 public class userResource {
 
-	//Método mais antigo e 
+	//Método mais antigo e ultil apenas qdo se precisa configurar
+	//varios metodos HTTP no mesmo endpoint.
 	//@RequestMapping(method=RequestMethod.GET)
 	@GetMapping
 	public ResponseEntity<List<User>> findAll(){
